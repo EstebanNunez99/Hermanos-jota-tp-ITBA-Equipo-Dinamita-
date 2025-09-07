@@ -1,0 +1,3 @@
+Aun no generamos el archivo readme.md porque no tenemos completa: 
+1- la funcionalidad implementada.
+2 2 -las tecnologías utilizadas.

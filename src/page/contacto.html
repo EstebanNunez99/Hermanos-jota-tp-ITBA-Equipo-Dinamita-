@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos</title>
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="../css/style-conctacto.css">
+  <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/headerStyles.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/catalogo.css">
+    <link rel="stylesheet" href="../css/Presentacion.css">
+</head>
+<body>
+ <header>
+        <div class="header-left">
+            <img src="../img/logo.svg" alt="Hermanos Jota" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalogo.html" >Catálogo</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="search">
+                <img src="../img/search.svg" alt="search">
+                <input type="text" placeholder="Buscar productos" id="cuadroDeBusqueda">
+            </div>
+            <div class="carrito">
+                <img src="../img/carrito.svg" alt="Carrito" class="carrito">
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+  <main>
+    <h1>Contáctanos</h1>
+    
+    <form id="contactForm" novalidate>
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Tu nombre">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Tu correo ">
+
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" placeholder="Escribí tu mensajito acá"></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+      <!-- Mensaje de éxito que aparece cuando todo sale joya -->
+      <p id="successMessage" style="display:none;">¡Mensaje enviado con exito! 😎</p>
+    </form>
+  </main>
+
+  <footer class="footer">
+        <div class="creditos tarjeta-footer">
+            <div class="creditos-creativos">
+                <p><strong>Dirección Creativa:</strong> Estudio Hermanos</p>
+                <p><strong>Diseño:</strong> María Fernanda López</p>
+                <p><strong>Fotografía:</strong> Santiago Ciuffo</p>
+                <p><strong>Redacción:</strong> Carolina Mendez</p>
+                <p><strong>Tipografía:</strong> Inter por Rasmus Andersson</p>
+            </div>
+
+            <p>&copy; 2025 Hermanos Jota · Buenos Aires</p>
+            <p>Hecho con materiales nobles y manos expertas</p>
+        </div>
+
+        <div class="contacto">
+            <h1 class="footer-title">Contacto Digital</h1>
+            <div class="contacto-item">
+                <img src="../img/gmail.svg" alt="Gmail" />
+                <p>info@hermanosjota.com</p>
+            </div>
+            <div class="contacto-item">
+                <img src="../img/whatsapp.svg" alt="Whatsapp" />
+                <p>+54 11 4567-8900</p>
+            </div>
+            <div class="contacto-item">
+                <img src="../img/instagram.svg" alt="Instagram" />
+                <p>@hermanosjota_ba</p>
+            </div>
+        </div>
+
+        <div class="Sucursales">
+            <h1>Sucursales</h1>
+            <p><strong>Hermanos Jota — Casa Taller</strong></p>
+            <p>
+                Av. San Juan 2847<br />
+                C1232AAB — Barrio de San Cristóbal<br />
+                Ciudad Autónoma de Buenos Aires<br />
+                Argentina
+            </p>
+            <p>
+                <strong>Horarios:</strong><br />
+                Lunes a Viernes: 10:00 - 19:00<br />
+                Sábados: 10:00 - 14:00
+            </p>
+        </div>
+    </footer>
+
+  <!-- Script para validar el formulario -->
+  <script src="../js/contacto.js"></script>
+</body>
+</html>
